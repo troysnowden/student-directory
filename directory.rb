@@ -22,10 +22,10 @@ def print_names(names)
   end
 end
 
-print_header
-print_names(students)
-print_footer(students)
-
 def print_footer(names)
   puts "Overall, there are #{names.count} students"
 end
+
+print_header
+print_names(students)
+print_footer(students)
